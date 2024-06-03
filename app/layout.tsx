@@ -10,8 +10,8 @@ import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";
-import { Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
+import GradioComponent from "@/components/GradioComponent"; // 导入 GradioComponent
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -29,11 +29,12 @@ export const metadata = {
   openGraph: siteConfig.openGraph,
   twitter: siteConfig.twitter,
 };
-export const viewport: Viewport = {
+
+export const viewport = {
   themeColor: siteConfig.themeColors,
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params: { lang },
 }: {
@@ -55,7 +56,10 @@ export default async function RootLayout({
           enableSystem
         >
           <Header />
-          <main className="flex flex-col items-center py-6">{children}</main>
+          <GradioComponent /> {/* 将 GradioComponent 插入到 Header 之下 */}
+          <main className="flex flex-col items-center py-6">
+            {children}
+          </main>
           <Footer />
           <Analytics />
           <TailwindIndicator />
