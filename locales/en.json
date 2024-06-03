@@ -3,10 +3,10 @@
     "title1": "AnimateDiff",
     "title2": "Image",
     "title3": "LightningFast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "description": "Lightning-fast text-to-video generation."
   },
   "SocialProof": {
-    "maker": "makers ship fast"
+    "maker": "text-to-video"
   },
   
   "Feature": {

@@ -8,7 +8,7 @@ const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 const baseSiteConfig = {
   name: "Image",
   description:
-    "A free ok, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
+    "Lightning-fast text-to-video generation.",
   url: "https://landingpage.weijunext.com",
   ogImage: "https://landingpage.weijunext.com/og.png",
   metadataBase: '/',
@@ -33,8 +33,7 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+     { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
     { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
   ],
   footerLinks: [
