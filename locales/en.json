@@ -19,26 +19,28 @@
     "doYouLike": "Do you like this landing page boilerplate?",
     "follow": "Follow my Twitter."
   },
+  
   "WallOfLove": {
     "title": "Wall of Love",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
-    "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+    "description1": "If you use AnimateDiff-Lightning and recommend it on your Twitter,",
+    "description2": "please let us know",
+    "description3": ". We will display your tweet and recommendation here."
   },
   "FAQ": {
     "title": "FAQs",
     "description": "Here are some of the most frequently asked questions."
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
-    "description6": "!"
+    "title": "Try AnimateDiff-Lightning Now",
+    "description1": "Experience",
+    "description2": "lightning-fast video generation,",
+    "description3": "explore",
+    "description4": "the power of motion modules, and",
+    "description5": "create stunning",
+    "description6": "animations!"
   },
   "CTAButton": {
-    "title": "Get LightningFast"
+    "title": "Get AnimateDiff-Lightning"
   }
+  
 }
