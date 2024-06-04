@@ -1,127 +1,177 @@
 export const FAQS_EN = [
   {
-    title: "What is a landing page?",
+    title: "What is AnimateDiff Image?",
     content:
-      "A landing page is a standalone web page created specifically for a marketing or advertising campaign. It's where a visitor 'lands' after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web. Unlike web pages, which typically have many goals and encourage exploration, landing pages are designed with a single focus or goal, known as a call to action (CTA).",
+      "AnimateDiff Image is an AI tool that can convert static images or text prompts into animated videos. It achieves this by generating a series of smoothly transitioning images.",
   },
   {
-    title: "How can I create a landing page?",
+    title: "How does AnimateDiff Image work?",
     content:
-      "Creating a landing page can be done in several steps: 1) Choose a landing page template that fits your campaign's needs or start from scratch. 2) Identify your landing page's objective and CTA. 3) Write compelling content that urges visitors to take action. 4) Incorporate design elements such as images, videos, and forms that align with your message. 5) Test your page's usability and mobile responsiveness. 6) Use SEO best practices to help your page get found. 7) Publish your landing page and monitor its performance to make adjustments as needed.",
+      "AnimateDiff Image utilizes pre-trained image-to-image diffusion models (such as Stable Diffusion) and motion modules to predict inter-frame motion, thereby generating animations.",
   },
   {
-    title: "Why is a landing page important?",
+    title: "What types of input can AnimateDiff Image handle?",
     content:
-      "Landing pages are crucial for any marketing strategy because they provide a targeted platform for converting visitors into leads or customers. Unlike general websites, landing pages focus the visitor's attention on a single offer, minimizing distractions and guiding them towards a specific action. This focused approach can significantly increase the effectiveness of your marketing campaigns, improve your ad performance, and enhance the overall user experience by providing them with the information or solution they were seeking.",
+      "It can handle static images and text prompts. Users can upload a static image, and AnimateDiff Image will predict the motion and generate an animation.",
   },
   {
-    title: "Why choose our landing page boilerplate?",
+    title: "What are the main features of AnimateDiff Image?",
     content:
-      "Our landing page template is free, open-source, and powerful, making it ideal for various projects and marketing campaigns. It allows you to create a landing page in under an hour, simplifying the development process while also offering a high degree of customization and responsiveness.",
+      "- Generate animations from text prompts\n- Generate animations from static images\n- Automatically generate image sequences without manually creating each frame\n- Seamlessly integrate with Stable Diffusion, leveraging its powerful image generation capabilities",
   },
   {
-    title: "What skills do I need to use this template?",
+    title: "What are the advantages of AnimateDiff Image?",
     content:
-      "To use our landing page template, you only need basic web editing skills. The design of the template is intended to be easy for non-technical users to get started with, while also providing high customizability for experienced developers.",
+      "- Can add animation to any input image, including personalized models or artworks\n- Automatically infer motion without additional guidance\n- Control the degree of motion by adjusting settings\n- Works better for simple scenes",
   },
   {
-    title: "How do I get started with the landing page template?",
+    title: "How do I use AnimateDiff Image to generate videos?",
     content:
-      "Getting started is very simple. Just download the source code from our GitHub repository, edit the text and images as needed, and then deploy it to your server.",
+      "Users simply need to provide a text prompt or static image, select a model, and activate AnimateDiff Image to generate short video clips.",
   },
   {
-    title: "Does the landing page template support responsive design?",
+    title: "What types of animations does AnimateDiff Image support?",
     content:
-      "Yes, our landing page template supports responsive design, ensuring that your webpage displays perfectly on a variety of devices, whether desktop, tablet, or smartphone.",
+      "- Text-to-video generation\n- Image-to-video generation\n- Seamless loop animations\n- Video editing/manipulation",
   },
   {
-    title: "Can I use this template for a commercial project?",
+    title: "What creative workflows can AnimateDiff Image be used for?",
     content:
-      "Absolutely. Our template is open-source, and you can use it for any type of project, including commercial purposes. We encourage users to utilize this template to create and optimize their online projects.",
+      "Artists and creators can integrate AnimateDiff Image into their creative workflows for quickly visualizing animation concepts, storyboards, or animation previews.",
   },
   {
-    title: "Do you offer any customization services?",
+    title: "What are the hardware requirements for AnimateDiff Image?",
     content:
-      "We accept paid custom development of landing pages. Please contact us via email at weijunext@gmail.com or Twitter @weijunext.",
+      "Running AnimateDiff Image requires at least 12GB of VRAM to generate 512×512 resolution, 16-frame images.",
   },
   {
-    title: "Are there any restrictions on using this template?",
+    title: "Does AnimateDiff Image support personalized animations?",
     content:
-      "No. You are free to use and modify this template. At the same time, we encourage developers to submit PRs to help improve this landing page template together.",
+      "Yes, by combining technologies like DreamBooth or LoRA, AnimateDiff Image can generate animations for personalized themes, characters, or objects.",
   },
   {
-    title: "Does this template include SEO optimization features?",
+    title: "What is the output quality of AnimateDiff Image?",
     content:
-      "Yes, our template includes basic SEO optimization features to help your webpage achieve better rankings in search engines.",
+      "AnimateDiff Image generates smooth and visually appealing animations, suitable for use in film and cartoons.",
   },
   {
-    title: "What should I do if I encounter problems using the template?",
+    title: "Does AnimateDiff Image support video editing?",
     content:
-      "If you encounter any issues while using the template, please contact us via Twitter @weijunext.",
+      "Yes, the video2video implementation of AnimateDiff Image utilizes ControlNet to edit existing videos based on text prompts.",
   },
+  {
+    title: "How does the motion module of AnimateDiff Image work?",
+    content:
+      "The motion module learns general motion patterns from real videos, generates intermediate frames, and applies motion dynamics to turn static images into animations.",
+  },
+  {
+    title: "Is AnimateDiff Image open source?",
+    content:
+      "Yes, AnimateDiff Image is open source, and users are free to use and modify it.",
+  },
+  {
+    title: "Are there any restrictions on using AnimateDiff Image?",
+    content:
+      "No. Users are free to use and modify AnimateDiff Image, and developers are encouraged to submit PRs to help improve it.",
+  },
+  {
+    title: "Does AnimateDiff Image include SEO optimization features?",
+    content:
+      "Yes, AnimateDiff Image includes basic SEO optimization features to help web pages rank better in search engines.",
+  },
+  {
+    title: "What should I do if I encounter problems using AnimateDiff Image?",
+    content:
+      "If you encounter any issues while using AnimateDiff Image, please contact the development team through relevant community or support channels.",
+  }
 ];
 
 export const FAQS_ZH = [
   {
-    title: "什么是落地页？",
+    title: "什么是AnimateDiff Image？",
     content:
-      "落地页是为市场营销或广告活动专门创建的独立网页。访问者在点击电子邮件中的链接、Google、Bing、YouTube、Facebook、Instagram、Twitter或网络上类似位置的广告后“降落”到该页面上。与通常具有多个目标并鼓励探索的网页不同，落地页设计有单一焦点或目标，称为行动号召（CTA）。",
+      "AnimateDiff Image是一种AI工具，可以将静态图像或文本提示转换为动画视频。它通过生成一系列平滑过渡的图像来实现这一点。",
   },
   {
-    title: "我如何创建一个落地页？",
+    title: "AnimateDiff Image如何工作？",
     content:
-      "创建落地页可以分几个步骤完成：1) 选择一个适合你活动需求的落地页模板，或从头开始。2) 确定你的落地页目标和CTA。3) 编写吸引访问者采取行动的引人注目的内容。4) 加入与你信息相符的设计元素，如图片、视频和表单。5) 测试你的页面的可用性和移动响应性。6) 使用SEO最佳实践帮助你的页面被发现。7) 发布你的落地页，并监控其性能以根据需要进行调整。",
+      "AnimateDiff Image利用预训练的图像到图像扩散模型（如Stable Diffusion）和运动模块来预测帧间的运动，从而生成动画。",
   },
   {
-    title: "为什么落地页很重要？",
+    title: "AnimateDiff Image可以处理哪些类型的输入？",
     content:
-      "落地页对于任何营销策略都至关重要，因为它们提供了一个针对性的平台，用于将访问者转化为潜在客户或客户。与通用网站不同，落地页将访问者的注意力集中在单一优惠上，最小化分心并引导他们向特定行动发展。这种集中的方法可以显著提高你的营销活动的有效性，改善广告性能，并通过为他们提供他们正在寻找的信息或解决方案来增强总体用户体验。",
+      "它可以处理静态图像和文本提示。用户可以上传一张静态图像，AnimateDiff Image会预测运动并生成动画。",
   },
   {
-    title: "为什么选择我们的落地页模板？",
+    title: "AnimateDiff Image的主要功能是什么？",
     content:
-      "我们的落地页模板是免费的、开源的且功能强大，非常适合各种项目和市场营销活动。它允许你在不到一小时内创建一个落地页，简化了开发过程，同时也提供了高度的自定义性和响应性。",
+      "- 从文本提示生成动画\n- 从静态图像生成动画\n- 自动生成图像序列，无需手动创建每一帧\n- 与Stable Diffusion无缝集成，利用其强大的图像生成能力",
   },
   {
-    title: "使用这个模板我需要哪些技能？",
+    title: "AnimateDiff Image的优势是什么？",
     content:
-      "使用我们的落地页模板，你只需要基本的网页编辑技能。该模板的设计旨在让非技术用户轻松上手，同时为有经验的开发者提供高度的自定义能力。",
+      "- 可以为任何输入图像添加动画，包括个性化模型或艺术作品\n- 自动推断运动，无需额外指导\n- 可以通过调整设置控制运动的程度\n- 简单场景效果更好",
   },
   {
-    title: "我如何开始使用落地页模板？",
+    title: "如何使用AnimateDiff Image生成视频？",
     content:
-      "开始非常简单。只需从我们的GitHub仓库下载源代码，根据需要编辑文本和图片，然后将其部署到你的服务器上。",
+      "用户只需提供一个文本提示或静态图像，选择一个模型，然后激活AnimateDiff Image，即可生成短视频片段。",
   },
   {
-    title: "落地页模板支持响应式设计吗？",
+    title: "AnimateDiff Image支持哪些动画类型？",
     content:
-      "是的，我们的落地页模板支持响应式设计，确保你的网页在桌面、平板或智能手机等各种设备上完美显示。",
+      "- 文本到视频生成\n- 图像到视频生成\n- 无缝循环动画\n- 视频编辑/操作",
   },
   {
-    title: "我可以将这个模板用于商业项目吗？",
+    title: "AnimateDiff Image可以用于哪些创意工作流程？",
     content:
-      "绝对可以。我们的模板是开源的，你可以将其用于任何类型的项目，包括商业用途。我们鼓励用户利用这个模板来创建和优化他们的在线项目。",
+      "艺术家和创作者可以将AnimateDiff Image集成到他们的创意工作流程中，用于快速可视化动画概念、故事板或动画预览。",
   },
   {
-    title: "你们提供定制服务吗？",
+    title: "AnimateDiff Image需要哪些硬件要求？",
     content:
-      "我们接受落地页的定制开发服务。请通过电子邮件weijunext@gmail.com或Twitter @weijunext与我们联系。",
+      "运行AnimateDiff Image需要至少12GB的显存，以生成512×512分辨率、16帧的图像。",
   },
   {
-    title: "使用这个模板有任何限制吗？",
+    title: "AnimateDiff Image是否支持个性化动画？",
     content:
-      "没有。你可以自由使用和修改这个模板。同时，我们鼓励开发者提交PR来共同帮助改进这个落地页模板。",
+      "是的，结合DreamBooth或LoRA等技术，AnimateDiff Image可以为个性化的主题、角色或对象生成动画。",
   },
   {
-    title: "这个模板包括SEO优化功能吗？",
+    title: "AnimateDiff Image的输出质量如何？",
     content:
-      "是的，我们的模板包含基本的SEO优化功能，帮助你的网页在搜索引擎中获得更好的排名。",
+      "AnimateDiff Image生成的动画平滑且视觉效果良好，适合用于电影和卡通等实际生产中。",
   },
   {
-    title: "如果我在使用模板时遇到问题该怎么办？",
+    title: "AnimateDiff Image是否支持视频编辑？",
     content:
-      "如果你在使用模板时遇到任何问题，请通过Twitter @weijunext 与我们联系。",
+      "是的，AnimateDiff Image的video2video实现利用ControlNet，可以通过文本提示编辑现有视频。",
   },
+  {
+    title: "AnimateDiff Image的运动模块如何工作？",
+    content:
+      "运动模块通过学习真实视频中的一般运动模式，生成中间帧并应用运动动态，使静态图像变为动画。",
+  },
+  {
+    title: "AnimateDiff Image是否支持开源？",
+    content:
+      "是的，AnimateDiff Image是开源的，用户可以自由使用和修改。",
+  },
+  {
+    title: "AnimateDiff Image的使用是否有任何限制？",
+    content:
+      "没有。用户可以自由使用和修改AnimateDiff Image，并鼓励开发者提交PR来共同改进。",
+  },
+  {
+    title: "AnimateDiff Image是否包含SEO优化功能？",
+    content:
+      "是的，AnimateDiff Image包含基本的SEO优化功能，帮助网页在搜索引擎中获得更好的排名。",
+  },
+  {
+    title: "如果在使用AnimateDiff Image时遇到问题该怎么办？",
+    content:
+      "如果在使用AnimateDiff Image时遇到任何问题，请通过相关社区或支持渠道联系开发团队。",
+  }
 ];
 
 export const FAQS_JA = [
