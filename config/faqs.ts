@@ -173,258 +173,354 @@ export const FAQS_ZH = [
       "如果在使用AnimateDiff Image时遇到任何问题，请通过相关社区或支持渠道联系开发团队。",
   }
 ];
-
 export const FAQS_JA = [
   {
-    title: "ランディングページとは何ですか？",
+    title: "AnimateDiff Imageとは何ですか？",
     content:
-      "ランディングページは、マーケティングや広告キャンペーンのために特別に作成された独立したウェブページです。訪問者がメール内のリンクやGoogle、Bing、YouTube、Facebook、Instagram、Twitter、またはウェブ上の類似の場所からの広告をクリックした後に「着陸」する場所です。ウェブページが多くの目標を持ち探索を促すのに対し、ランディングページは行動を促す一つの焦点または目標（CTA）を持って設計されています。",
+      "AnimateDiff Imageは、静止画像やテキストプロンプトをアニメーションビデオに変換できるAIツールです。滑らかに移行する一連の画像を生成することでこれを実現します。",
   },
   {
-    title: "ランディングページはどのように作成しますか？",
+    title: "AnimateDiff Imageはどのように動作しますか？",
     content:
-      "ランディングページの作成はいくつかのステップで行うことができます：1) キャンペーンのニーズに合ったランディングページのテンプレートを選択するか、ゼロから始めます。2) ランディングページの目的とCTAを特定します。3) 訪問者が行動を起こすよう促す魅力的なコンテンツを作成します。4) メッセージと一致する画像、ビデオ、フォームなどのデザイン要素を取り入れます。5) ページの使いやすさとモバイル対応性をテストします。6) ページが見つかるようにSEOのベストプラクティスを使用します。7) ランディングページを公開し、必要に応じて調整を行いながらそのパフォーマンスを監視します。",
+      "AnimateDiff Imageは、事前にトレーニングされた画像から画像への拡散モデル（Stable Diffusionなど）とモーションモジュールを利用して、フレーム間の動きを予測し、アニメーションを生成します。",
   },
   {
-    title: "ランディングページが重要な理由は何ですか？",
+    title: "AnimateDiff Imageはどのような入力を処理できますか？",
     content:
-      "ランディングページは、訪問者をリードや顧客に変換するためのターゲットされたプラットフォームを提供するため、あらゆるマーケティング戦略にとって不可欠です。一般的なウェブサイトとは異なり、ランディングページは訪問者の注意を単一のオファーに集中させ、気晴らしを最小限に抑え、特定のアクションに導くことに焦点を当てています。この集中的なアプローチは、マーケティングキャンペーンの効果を著しく高め、広告のパフォーマンスを改善し、訪問者が求めていた情報や解決策を提供することで全体的なユーザー体験を向上させることができます。",
+      "静止画像とテキストプロンプトを処理できます。ユーザーは静止画像をアップロードすると、AnimateDiff Imageが動きを予測し、アニメーションを生成します。",
   },
   {
-    title: "なぜ私たちのランディングページのボイラープレートを選ぶのですか？",
+    title: "AnimateDiff Imageの主な機能は何ですか？",
     content:
-      "私たちのランディングページのテンプレートは無料で、オープンソースで、強力であり、さまざまなプロジェクトやマーケティングキャンペーンに理想的です。1時間以内にランディングページを作成できることで、開発プロセスを簡素化しながら、高度なカスタマイズ性と応答性を提供します。",
+      "- テキストプロンプトからアニメーションを生成\n- 静止画像からアニメーションを生成\n- 各フレームを手動で作成することなく、画像シーケンスを自動生成\n- 強力な画像生成機能を活用するためにStable Diffusionとシームレスに統合",
   },
   {
-    title: "このテンプレートを使用するために必要なスキルは何ですか？",
+    title: "AnimateDiff Imageの利点は何ですか？",
     content:
-      "当社のランディングページテンプレートを使用するには、基本的なウェブ編集スキルだけが必要です。このテンプレートのデザインは、技術的でないユーザーが簡単に始められるように意図されていますが、経験豊富な開発者にも高いカスタマイズ性を提供します。",
+      "- パーソナライズされたモデルやアートワークを含む任意の入力画像にアニメーションを追加可能\n- 追加のガイダンスなしで動きを自動的に推測\n- 設定を調整して動きの程度を制御可能\n- シンプルなシーンでより良い効果を発揮",
   },
   {
-    title: "ランディングページテンプレートを使い始めるにはどうすればいいですか？",
+    title: "AnimateDiff Imageを使用してビデオを生成するにはどうすればよいですか？",
     content:
-      "始めるのは非常に簡単です。GitHubリポジトリからソースコードをダウンロードし、必要に応じてテキストや画像を編集してから、サーバーにデプロイします。",
+      "ユーザーはテキストプロンプトまたは静止画像を提供し、モデルを選択してAnimateDiff Imageをアクティブにするだけで、短いビデオクリップを生成できます。",
   },
   {
-    title: "ランディングページテンプレートはレスポンシブデザインに対応していますか？",
+    title: "AnimateDiff Imageはどのようなアニメーションタイプをサポートしていますか？",
     content:
-      "はい、当社のランディングページテンプレートはレスポンシブデザインに対応しており、デスクトップ、タブレット、スマートフォンなど、さまざまなデバイスで完璧に表示されます。",
+      "- テキストからビデオの生成\n- 画像からビデオの生成\n- シームレスなループアニメーション\n- ビデオ編集/操作",
   },
   {
-    title: "商業プロジェクトでこのテンプレートを使用できますか？",
+    title: "AnimateDiff Imageはどのようなクリエイティブワークフローに使用できますか？",
     content:
-      "もちろんです。テンプレートはオープンソースであり、商業目的を含むあらゆる種類のプロジェクトで使用できます。オンラインプロジェクトを作成して最適化するために、このテンプレートを使用することをユーザーに奨励しています。",
+      "アーティストやクリエイターは、アニメーションコンセプト、ストーリーボード、アニメーションプレビューを迅速に視覚化するために、AnimateDiff Imageをクリエイティブワークフローに統合できます。",
   },
   {
-    title: "カスタマイズサービスを提供していますか？",
+    title: "AnimateDiff Imageのハードウェア要件は何ですか？",
     content:
-      "有料のランディングページのカスタム開発を受け付けています。メールweijunext@gmail.comまたはTwitter @weijunextでお問い合わせください。",
+      "AnimateDiff Imageを実行するには、少なくとも12GBのVRAMが必要です。512×512の解像度、16フレームの画像を生成するためです。",
   },
   {
-    title: "このテンプレートを使用する際に制限はありますか？",
+    title: "AnimateDiff Imageはパーソナライズされたアニメーションをサポートしていますか？",
     content:
-      "いいえ。このテンプレートを自由に使用および変更することができます。同時に、開発者がPRを提出して、このランディングページテンプレートを一緒に改善することを奨励しています。",
+      "はい、DreamBoothやLoRAなどの技術を組み合わせることで、AnimateDiff Imageはパーソナライズされたテーマ、キャラクター、オブジェクトのアニメーションを生成できます。",
   },
   {
-    title: "このテンプレートにはSEO最適化機能が含まれていますか？",
+    title: "AnimateDiff Imageの出力品質はどうですか？",
     content:
-      "はい、テンプレートには基本的なSEO最適化機能が含まれており、検索エンジンでのウェブページのランキング向上に役立ちます。",
+      "AnimateDiff Imageが生成するアニメーションは滑らかで視覚的に魅力的であり、映画やアニメーションに適しています。",
   },
   {
-    title: "テンプレートの使用中に問題に遭遇した場合、どうすればよいですか？",
+    title: "AnimateDiff Imageはビデオ編集をサポートしていますか？",
     content:
-      "テンプレートの使用中に問題が発生した場合は、Twitter @weijunextでお問い合わせください。",
+      "はい、AnimateDiff Imageのvideo2video実装はControlNetを利用して、テキストプロンプトに基づいて既存のビデオを編集できます。",
   },
+  {
+    title: "AnimateDiff Imageのモーションモジュールはどのように動作しますか？",
+    content:
+      "モーションモジュールは、実際のビデオから一般的な動きのパターンを学習し、中間フレームを生成して動きのダイナミクスを適用し、静止画像をアニメーションに変えます。",
+  },
+  {
+    title: "AnimateDiff Imageはオープンソースですか？",
+    content:
+      "はい、AnimateDiff Imageはオープンソースであり、ユーザーは自由に使用および変更できます。",
+  },
+  {
+    title: "AnimateDiff Imageの使用に制限はありますか？",
+    content:
+      "いいえ。ユーザーはAnimateDiff Imageを自由に使用および変更でき、開発者は改善のためにPRを提出することを奨励されています。",
+  },
+  {
+    title: "AnimateDiff ImageにはSEO最適化機能が含まれていますか？",
+    content:
+      "はい、AnimateDiff Imageには基本的なSEO最適化機能が含まれており、ウェブページが検索エンジンでより良いランキングを獲得するのに役立ちます。",
+  },
+  {
+    title: "AnimateDiff Imageの使用中に問題が発生した場合はどうすればよいですか？",
+    content:
+      "AnimateDiff Imageの使用中に問題が発生した場合は、関連するコミュニティやサポートチャネルを通じて開発チームに連絡してください。",
+  }
 ];
-
 
 export const FAQS_AR = [
   {
-    title: "ما هي صفحة الهبوط؟",
+    title: "ما هو AnimateDiff Image؟",
     content:
-      "صفحة الهبوط هي صفحة ويب منفصلة تم إنشاؤها خصيصًا لحملة تسويقية أو إعلانية. هذا هو المكان الذي ينتقل إليه الزائر بعد النقر على رابط في بريد إلكتروني أو إعلانات من Google أو Bing أو YouTube أو Facebook أو Instagram أو Twitter أو أماكن مماثلة على الويب. على عكس صفحات الويب التي لديها عادةً العديد من الأهداف وتشجع الاستكشاف، يتم تصميم صفحات الهبوط بهدف واحد محدد، وهو ما يُعرف باسم إجراء الدعوة (CTA).",
+      "AnimateDiff Image هو أداة ذكاء اصطناعي يمكنها تحويل الصور الثابتة أو النصوص إلى فيديوهات متحركة. يتم تحقيق ذلك من خلال توليد سلسلة من الصور التي تنتقل بسلاسة.",
   },
   {
-    title: "كيف يمكنني إنشاء صفحة هبوط؟",
+    title: "كيف يعمل AnimateDiff Image؟",
     content:
-      "يمكن إنشاء صفحة هبوط في عدة خطوات: 1) اختر قالبًا لصفحة الهبوط يناسب احتياجات حملتك أو ابدأ من الصفر. 2) حدد الهدف من صفحة الهبوط وإجراء الدعوة. 3) اكتب محتوى جذابًا يحث الزوار على اتخاذ إجراء. 4) ضمِّن عناصر تصميم مثل الصور والفيديوهات والنماذج التي تتماشى مع رسالتك. 5) اختبر قابلية استخدام الصفحة واستجابتها للجوال. 6) اتبع أفضل ممارسات SEO لمساعدة صفحتك على الظهور. 7) انشر صفحة الهبوط الخاصة بك وراقب أدائها لإجراء التعديلات اللازمة.",
+      "يستخدم AnimateDiff Image نماذج الانتشار المدربة مسبقًا لتحويل الصور إلى صور (مثل Stable Diffusion) ووحدات الحركة للتنبؤ بالحركة بين الإطارات، وبالتالي توليد الرسوم المتحركة.",
   },
   {
-    title: "لماذا تعتبر صفحة الهبوط مهمة؟",
+    title: "ما هي أنواع المدخلات التي يمكن لـ AnimateDiff Image معالجتها؟",
     content:
-      "تعتبر صفحات الهبوط أساسية لأي استراتيجية تسويقية لأنها توفر منصة موجهة لتحويل الزوار إلى عملاء أو عملاء محتملين. على عكس مواقع الويب العامة، تركز صفحات الهبوط انتباه الزائر على عرض واحد، مما يقلل من المشتتات ويوجههم نحو إجراء محدد. يمكن أن يؤدي هذا النهج المركز إلى زيادة فعالية حملاتك التسويقية بشكل كبير، وتحسين أداء الإعلانات، وتعزيز تجربة المستخدم الإجمالية من خلال توفير المعلومات أو الحل الذي كانوا يبحثون عنه.",
+      "يمكنه معالجة الصور الثابتة والنصوص. يمكن للمستخدمين تحميل صورة ثابتة، وسيقوم AnimateDiff Image بالتنبؤ بالحركة وتوليد الرسوم المتحركة.",
   },
   {
-    title: "لماذا اختيار قالب صفحة الهبوط الخاص بنا؟",
+    title: "ما هي الميزات الرئيسية لـ AnimateDiff Image؟",
     content:
-      "إن قالب صفحة الهبوط الخاص بنا مجاني ومفتوح المصدر وقوي، مما يجعله مثاليًا لمختلف المشاريع والحملات التسويقية. يتيح لك إنشاء صفحة هبوط في أقل من ساعة، مما يبسط عملية التطوير مع توفير درجة عالية من إمكانية التخصيص والاستجابة للجوال.",
+      "- توليد الرسوم المتحركة من النصوص\n- توليد الرسوم المتحركة من الصور الثابتة\n- توليد تسلسل الصور تلقائيًا دون الحاجة إلى إنشاء كل إطار يدويًا\n- التكامل السلس مع Stable Diffusion للاستفادة من قدراته القوية في توليد الصور",
   },
   {
-    title: "ما المهارات التي أحتاجها لاستخدام هذا القالب؟",
+    title: "ما هي فوائد AnimateDiff Image؟",
     content:
-      "لاستخدام قالب صفحة الهبوط الخاص بنا، ستحتاج فقط إلى مهارات أساسية في تحرير الويب. تم تصميم هذا القالب ليكون سهل الاستخدام بالنسبة للمستخدمين غير الفنيين، بينما يوفر أيضًا درجة عالية من إمكانية التخصيص للمطورين ذوي الخبرة.",
+      "- يمكنه إضافة الرسوم المتحركة إلى أي صورة مدخلة، بما في ذلك النماذج المخصصة أو الأعمال الفنية\n- التنبؤ بالحركة تلقائيًا دون الحاجة إلى توجيه إضافي\n- يمكن التحكم في درجة الحركة من خلال ضبط الإعدادات\n- يعمل بشكل أفضل مع المشاهد البسيطة",
   },
   {
-    title: "كيف أبدأ باستخدام قالب صفحة الهبوط؟",
+    title: "كيف يمكنني استخدام AnimateDiff Image لتوليد الفيديوهات؟",
     content:
-      "البدء هو أمر بسيط. ما عليك سوى تنزيل الكود المصدري من مستودعنا على GitHub، وتحرير النص والصور حسب الحاجة، ثم نشره على خادمك.",
+      "يحتاج المستخدمون فقط إلى تقديم نص أو صورة ثابتة، واختيار نموذج، وتفعيل AnimateDiff Image لتوليد مقاطع فيديو قصيرة.",
   },
   {
-    title: "هل يدعم قالب صفحة الهبوط التصميم المستجيب؟",
+    title: "ما هي أنواع الرسوم المتحركة التي يدعمها AnimateDiff Image؟",
     content:
-      "نعم، يدعم قالب صفحة الهبوط الخاص بنا التصميم المستجيب، مما يضمن عرض صفحتك الإلكترونية بشكل مثالي على مجموعة متنوعة من الأجهزة، سواء كانت أجهزة سطح المكتب أو الأجهزة اللوحية أو الهواتف الذكية.",
+      "- توليد الفيديو من النصوص\n- توليد الفيديو من الصور\n- الرسوم المتحركة ذات الحلقات السلسة\n- تحرير/تعديل الفيديو",
   },
   {
-    title: "هل يمكنني استخدام هذا القالب لمشروع تجاري؟",
+    title: "ما هي سير العمل الإبداعية التي يمكن استخدام AnimateDiff Image فيها؟",
     content:
-      "بالتأكيد. إن قالب المصدر هذا مفتوح المصدر، ويمكنك استخدامه لأي نوع من المشاريع، بما في ذلك الأغراض التجارية. نحن نشجع المستخدمين على استخدام هذا القالب لإنشاء وتحسين مشاريعهم عبر الإنترنت.",
+      "يمكن للفنانين والمبدعين دمج AnimateDiff Image في سير عملهم الإبداعي لتصور مفاهيم الرسوم المتحركة بسرعة، أو لوحات القصة، أو معاينات الرسوم المتحركة.",
   },
   {
-    title: "هل تقدمون خدمات تخصيص؟",
+    title: "ما هي متطلبات الأجهزة لـ AnimateDiff Image؟",
     content:
-      "نحن نقبل التطوير المخصص المدفوع لصفحات الهبوط. يرجى التواصل معنا عبر البريد الإلكتروني على weijunext@gmail.com أو تويتر @weijunext.",
+      "يتطلب تشغيل AnimateDiff Image ما لا يقل عن 12 جيجابايت من ذاكرة الفيديو (VRAM) لتوليد صور بدقة 512×512 وبعدد 16 إطارًا.",
   },
   {
-    title: "هل هناك قيود على استخدام هذا القالب؟",
+    title: "هل يدعم AnimateDiff Image الرسوم المتحركة المخصصة؟",
     content:
-      "لا. أنت حر في استخدام وتعديل هذا القالب. في الوقت نفسه، نشجع المطورين على تقديم طلبات المراجعة للمساعدة في تحسين هذا قالب صفحة الهبوط معًا.",
+      "نعم، من خلال دمج تقنيات مثل DreamBooth أو LoRA، يمكن لـ AnimateDiff Image توليد الرسوم المتحركة للمواضيع أو الشخصيات أو الكائنات المخصصة.",
   },
   {
-    title: "هل يتضمن هذا القالب ميزات تحسين محركات البحث (SEO)؟",
+    title: "ما هي جودة الإخراج لـ AnimateDiff Image؟",
     content:
-      "نعم، يتضمن قالبنا ميزات تحسين محركات البحث الأساسية للمساعدة في تحقيق تصنيفات أفضل لصفحتك الإلكترونية في محركات البحث.",
+      "تكون الرسوم المتحركة التي يولدها AnimateDiff Image سلسة وجذابة بصريًا، مما يجعلها مناسبة للاستخدام في الأفلام والرسوم المتحركة.",
   },
   {
-    title: "ماذا يجب أن أفعل إذا واجهت مشكلات أثناء استخدام القالب؟",
+    title: "هل يدعم AnimateDiff Image تحرير الفيديو؟",
     content:
-      "إذا واجهت أي مشكلات أثناء استخدام القالب، فيرجى التواصل معنا عبر تويتر @weijunext.",
+      "نعم، يستخدم تنفيذ video2video لـ AnimateDiff Image تقنية ControlNet لتحرير الفيديوهات الحالية بناءً على النصوص.",
   },
+  {
+    title: "كيف تعمل وحدة الحركة في AnimateDiff Image؟",
+    content:
+      "تتعلم وحدة الحركة الأنماط العامة للحركة من الفيديوهات الحقيقية، وتولد الإطارات الوسيطة وتطبق ديناميكيات الحركة لتحويل الصور الثابتة إلى رسوم متحركة.",
+  },
+  {
+    title: "هل AnimateDiff Image مفتوح المصدر؟",
+    content:
+      "نعم، AnimateDiff Image مفتوح المصدر، ويمكن للمستخدمين استخدامه وتعديله بحرية.",
+  },
+  {
+    title: "هل هناك أي قيود على استخدام AnimateDiff Image؟",
+    content:
+      "لا. يمكن للمستخدمين استخدام وتعديل AnimateDiff Image بحرية، ويتم تشجيع المطورين على تقديم طلبات السحب (PR) للمساعدة في تحسينه.",
+  },
+  {
+    title: "هل يتضمن AnimateDiff Image ميزات تحسين محركات البحث (SEO)؟",
+    content:
+      "نعم، يتضمن AnimateDiff Image ميزات تحسين محركات البحث الأساسية لمساعدة صفحات الويب في الحصول على ترتيب أفضل في محركات البحث.",
+  },
+  {
+    title: "ماذا أفعل إذا واجهت مشاكل أثناء استخدام AnimateDiff Image؟",
+    content:
+      "إذا واجهت أي مشاكل أثناء استخدام AnimateDiff Image، يرجى الاتصال بفريق التطوير من خلال القنوات المجتمعية أو دعم العملاء ذات الصلة.",
+  }
 ];
-
 export const FAQS_ES = [
   {
-    title: "¿Qué es una página de destino?",
+    title: "¿Qué es AnimateDiff Image?",
     content:
-      "Una página de destino es una página web independiente creada específicamente para una campaña de marketing o publicidad. Es el lugar donde un visitante 'aterriza' después de hacer clic en un enlace en un correo electrónico o en anuncios de Google, Bing, YouTube, Facebook, Instagram, Twitter o lugares similares en la web. A diferencia de las páginas web, que típicamente tienen muchos objetivos y fomentan la exploración, las páginas de destino se diseñan con un solo enfoque u objetivo, conocido como una acción de llamada (CTA).",
+      "AnimateDiff Image es una herramienta de inteligencia artificial que puede convertir imágenes estáticas o indicaciones de texto en videos animados. Esto se logra generando una serie de imágenes que transicionan suavemente.",
   },
   {
-    title: "¿Cómo puedo crear una página de destino?",
+    title: "¿Cómo funciona AnimateDiff Image?",
     content:
-      "Crear una página de destino se puede hacer en varios pasos: 1) Elige una plantilla de página de destino que se adapte a las necesidades de tu campaña o comienza desde cero. 2) Identifica el objetivo y la CTA de tu página de destino. 3) Escribe un contenido convincente que anime a los visitantes a tomar medidas. 4) Incorpora elementos de diseño como imágenes, videos y formularios que se alineen con tu mensaje. 5) Prueba la usabilidad y la capacidad de respuesta móvil de tu página. 6) Utiliza las mejores prácticas de SEO para ayudar a que tu página se encuentre. 7) Publica tu página de destino y monitorea su rendimiento para hacer ajustes según sea necesario.",
+      "AnimateDiff Image utiliza modelos de difusión de imagen a imagen preentrenados (como Stable Diffusion) y módulos de movimiento para predecir el movimiento entre fotogramas, generando así animaciones.",
   },
   {
-    title: "¿Por qué es importante una página de destino?",
+    title: "¿Qué tipos de entrada puede manejar AnimateDiff Image?",
     content:
-      "Las páginas de destino son cruciales para cualquier estrategia de marketing porque proporcionan una plataforma específica para convertir a los visitantes en clientes potenciales o clientes. A diferencia de los sitios web generales, las páginas de destino enfocan la atención del visitante en una oferta única, minimizando las distracciones y guiándolos hacia una acción específica. Este enfoque centrado puede aumentar significativamente la efectividad de tus campañas de marketing, mejorar el rendimiento de tus anuncios y mejorar la experiencia general del usuario al brindarles la información o la solución que estaban buscando.",
+      "Puede manejar imágenes estáticas e indicaciones de texto. Los usuarios pueden cargar una imagen estática y AnimateDiff Image predecirá el movimiento y generará la animación.",
   },
   {
-    title: "¿Por qué elegir nuestra plantilla de página de destino?",
+    title: "¿Cuáles son las principales características de AnimateDiff Image?",
     content:
-      "Nuestra plantilla de página de destino es gratuita, de código abierto y poderosa, lo que la convierte en ideal para diversos proyectos y campañas de marketing. Te permite crear una página de destino en menos de una hora, simplificando el proceso de desarrollo y ofreciendo también un alto grado de personalización y capacidad de respuesta.",
+      "- Generar animaciones a partir de indicaciones de texto\n- Generar animaciones a partir de imágenes estáticas\n- Generar secuencias de imágenes automáticamente sin necesidad de crear cada fotograma manualmente\n- Integración perfecta con Stable Diffusion, aprovechando sus potentes capacidades de generación de imágenes",
   },
   {
-    title: "¿Qué habilidades necesito para usar esta plantilla?",
+    title: "¿Cuáles son las ventajas de AnimateDiff Image?",
     content:
-      "Para usar nuestra plantilla de página de destino, solo necesitas habilidades básicas de edición web. El diseño de la plantilla está pensado para que los usuarios no técnicos puedan comenzar fácilmente, mientras que también ofrece una alta personalización para desarrolladores experimentados.",
+      "- Puede agregar animación a cualquier imagen de entrada, incluidos modelos personalizados o obras de arte\n- Inferir el movimiento automáticamente sin necesidad de orientación adicional\n- Controlar el grado de movimiento ajustando la configuración\n- Funciona mejor para escenas simples",
   },
   {
-    title: "¿Cómo puedo empezar con la plantilla de página de destino?",
+    title: "¿Cómo puedo usar AnimateDiff Image para generar videos?",
     content:
-      "Empezar es muy sencillo. Simplemente descarga el código fuente de nuestro repositorio de GitHub, edita el texto y las imágenes según sea necesario y luego despliégalo en tu servidor.",
+      "Los usuarios solo necesitan proporcionar una indicación de texto o una imagen estática, seleccionar un modelo y activar AnimateDiff Image para generar clips de video cortos.",
   },
   {
-    title: "¿La plantilla de página de destino admite diseño receptivo?",
+    title: "¿Qué tipos de animaciones admite AnimateDiff Image?",
     content:
-      "Sí, nuestra plantilla de página de destino admite diseño receptivo, lo que asegura que tu página web se muestre perfectamente en una variedad de dispositivos, ya sean de escritorio, tableta o teléfono inteligente.",
+      "- Generación de video a partir de texto\n- Generación de video a partir de imágenes\n- Animaciones de bucle sin interrupciones\n- Edición/manipulación de video",
   },
   {
-    title: "¿Puedo usar esta plantilla para un proyecto comercial?",
+    title: "¿En qué flujos de trabajo creativos se puede usar AnimateDiff Image?",
     content:
-      "Absolutamente. Nuestra plantilla es de código abierto y puedes usarla para cualquier tipo de proyecto, incluidos fines comerciales. Alentamos a los usuarios a utilizar esta plantilla para crear y optimizar sus proyectos en línea.",
+      "Los artistas y creadores pueden integrar AnimateDiff Image en sus flujos de trabajo creativos para visualizar rápidamente conceptos de animación, guiones gráficos o previsualizaciones de animación.",
   },
   {
-    title: "¿Ofrecen servicios de personalización?",
+    title: "¿Cuáles son los requisitos de hardware para AnimateDiff Image?",
     content:
-      "Aceptamos el desarrollo personalizado de páginas de destino a pedido. Por favor, contáctanos por correo electrónico a weijunext@gmail.com o en Twitter @weijunext.",
+      "Para ejecutar AnimateDiff Image se requieren al menos 12 GB de VRAM para generar imágenes de 512×512 de resolución y 16 fotogramas.",
   },
   {
-    title: "¿Hay alguna restricción para usar esta plantilla?",
+    title: "¿Admite AnimateDiff Image animaciones personalizadas?",
     content:
-      "No. Eres libre de usar y modificar esta plantilla. Al mismo tiempo, alentamos a los desarrolladores a enviar solicitudes de extracción (PR) para ayudar a mejorar esta plantilla de página de destino juntos.",
+      "Sí, al combinar tecnologías como DreamBooth o LoRA, AnimateDiff Image puede generar animaciones para temas, personajes u objetos personalizados.",
   },
   {
-    title: "¿Esta plantilla incluye funciones de optimización SEO?",
+    title: "¿Cuál es la calidad de salida de AnimateDiff Image?",
     content:
-      "Sí, nuestra plantilla incluye funciones básicas de optimización SEO para ayudar a que tu página web logre mejores posiciones en los motores de búsqueda.",
+      "Las animaciones generadas por AnimateDiff Image son suaves y visualmente atractivas, adecuadas para su uso en películas y dibujos animados.",
   },
   {
-    title: "¿Qué debo hacer si tengo problemas al usar la plantilla?",
+    title: "¿Admite AnimateDiff Image la edición de video?",
     content:
-      "Si encuentras problemas mientras usas la plantilla, comunícate con nosotros a través de Twitter @weijunext.",
+      "Sí, la implementación de video2video de AnimateDiff Image utiliza ControlNet para editar videos existentes basados en indicaciones de texto.",
   },
+  {
+    title: "¿Cómo funciona el módulo de movimiento de AnimateDiff Image?",
+    content:
+      "El módulo de movimiento aprende patrones generales de movimiento a partir de videos reales, genera fotogramas intermedios y aplica dinámicas de movimiento para convertir imágenes estáticas en animaciones.",
+  },
+  {
+    title: "¿Es AnimateDiff Image de código abierto?",
+    content:
+      "Sí, AnimateDiff Image es de código abierto y los usuarios pueden usarlo y modificarlo libremente.",
+  },
+  {
+    title: "¿Hay alguna restricción en el uso de AnimateDiff Image?",
+    content:
+      "No. Los usuarios pueden usar y modificar AnimateDiff Image libremente, y se anima a los desarrolladores a enviar PRs para ayudar a mejorarlo.",
+  },
+  {
+    title: "¿Incluye AnimateDiff Image funciones de optimización SEO?",
+    content:
+      "Sí, AnimateDiff Image incluye funciones básicas de optimización SEO para ayudar a que las páginas web obtengan una mejor clasificación en los motores de búsqueda.",
+  },
+  {
+    title: "¿Qué debo hacer si encuentro problemas al usar AnimateDiff Image?",
+    content:
+      "Si encuentra algún problema al usar AnimateDiff Image, comuníquese con el equipo de desarrollo a través de los canales comunitarios o de soporte relevantes.",
+  }
 ];
-
 export const FAQS_RU = [
   {
-    title: "Что такое целевая страница?",
+    title: "Что такое AnimateDiff Image?",
     content:
-      "Целевая страница - это отдельная веб-страница, специально созданная для маркетинговой или рекламной кампании. Это место, где посетитель 'приземляется' после нажатия на ссылку в электронном письме или рекламе в Google, Bing, YouTube, Facebook, Instagram, Twitter или других подобных местах в Интернете. В отличие от веб-страниц, которые, как правило, имеют множество целей и поощряют исследование, целевые страницы разработаны с единственной фокусной точкой или целью, известной как призыв к действию (CTA).",
+      "AnimateDiff Image - это инструмент искусственного интеллекта, который может преобразовывать статические изображения или текстовые подсказки в анимационные видео. Это достигается путем создания серии изображений с плавными переходами.",
   },
   {
-    title: "Как я могу создать целевую страницу?",
+    title: "Как работает AnimateDiff Image?",
     content:
-      "Создание целевой страницы можно выполнить в несколько шагов: 1) Выберите шаблон целевой страницы, который соответствует потребностям вашей кампании, или начните с нуля. 2) Определите цель вашей целевой страницы и CTA. 3) Напишите убедительный контент, который побудит посетителей предпринять действие. 4) Включите элементы дизайна, такие как изображения, видео и формы, которые соответствуют вашему сообщению. 5) Протестируйте удобство использования и мобильную адаптивность вашей страницы. 6) Используйте лучшие практики SEO, чтобы помочь вашей странице быть найденной. 7) Опубликуйте вашу целевую страницу и отслеживайте ее производительность, чтобы вносить необходимые коррективы.",
+      "AnimateDiff Image использует предварительно обученные модели диффузии изображений (такие как Stable Diffusion) и модули движения для предсказания движения между кадрами, тем самым создавая анимации.",
   },
   {
-    title: "Почему важна целевая страница?",
+    title: "Какие типы входных данных может обрабатывать AnimateDiff Image?",
     content:
-      "Целевые страницы имеют решающее значение для любой маркетинговой стратегии, поскольку они обеспечивают ориентированную платформу для превращения посетителей в потенциальных клиентов или клиентов. В отличие от общих веб-сайтов, целевые страницы фокусируют внимание посетителя на единственном предложении, сводя к минимуму отвлекающие факторы и направляя их к конкретному действию. Этот сфокусированный подход может значительно повысить эффективность ваших маркетинговых кампаний, улучшить производительность рекламы и улучшить общий пользовательский опыт, предоставляя им информацию или решение, которое они искали.",
+      "Он может обрабатывать статические изображения и текстовые подсказки. Пользователи могут загрузить статическое изображение, и AnimateDiff Image предскажет движение и создаст анимацию.",
   },
   {
-    title: "Почему выбрать наш шаблон целевой страницы?",
+    title: "Каковы основные функции AnimateDiff Image?",
     content:
-      "Наш шаблон целевой страницы является бесплатным, с открытым исходным кодом и мощным, что делает его идеальным для различных проектов и маркетинговых кампаний. Он позволяет создать целевую страницу менее чем за час, упрощая процесс разработки, а также предлагая высокую степень кастомизации и адаптивности.",
+      "- Создание анимаций из текстовых подсказок\n- Создание анимаций из статических изображений\n- Автоматическое создание последовательностей изображений без необходимости вручную создавать каждый кадр\n- Бесшовная интеграция с Stable Diffusion, используя его мощные возможности генерации изображений",
   },
   {
-    title: "Какие навыки мне нужны, чтобы использовать этот шаблон?",
+    title: "Каковы преимущества AnimateDiff Image?",
     content:
-      "Для использования нашего шаблона целевой страницы вам понадобятся только базовые навыки веб-редактирования. Дизайн шаблона рассчитан на то, чтобы быть легким для использования неопытными пользователями, в то же время предоставляя высокую степень кастомизации для опытных разработчиков.",
+      "- Может добавлять анимацию к любому входному изображению, включая персонализированные модели или произведения искусства\n- Автоматически предсказывает движение без дополнительного руководства\n- Можно контролировать степень движения, настраивая параметры\n- Лучше всего работает для простых сцен",
   },
   {
-    title: "Как я могу начать работу с шаблоном целевой страницы?",
+    title: "Как использовать AnimateDiff Image для создания видео?",
     content:
-      "Начать очень просто. Просто скачайте исходный код из нашего репозитория GitHub, отредактируйте текст и изображения по мере необходимости, а затем разверните его на своем сервере.",
+      "Пользователям нужно просто предоставить текстовую подсказку или статическое изображение, выбрать модель и активировать AnimateDiff Image для создания коротких видеоклипов.",
   },
   {
-    title: "Поддерживает ли шаблон целевой страницы адаптивный дизайн?",
+    title: "Какие типы анимаций поддерживает AnimateDiff Image?",
     content:
-      "Да, наш шаблон целевой страницы поддерживает адаптивный дизайн, что гарантирует, что ваша веб-страница будет идеально отображаться на различных устройствах, будь то настольный компьютер, планшет или смартфон.",
+      "- Создание видео из текста\n- Создание видео из изображений\n- Бесшовные циклические анимации\n- Редактирование/манипуляция видео",
   },
   {
-    title: "Могу ли я использовать этот шаблон для коммерческого проекта?",
+    title: "В каких творческих рабочих процессах можно использовать AnimateDiff Image?",
     content:
-      "Абсолютно. Наш шаблон с открытым исходным кодом, и вы можете использовать его для любого типа проекта, включая коммерческие цели. Мы поощряем пользователей использовать этот шаблон для создания и оптимизации их онлайн-проектов.",
+      "Художники и создатели могут интегрировать AnimateDiff Image в свои творческие рабочие процессы для быстрого визуализации концепций анимации, раскадровок или предварительных просмотров анимации.",
   },
   {
-    title: "Предлагаете ли вы услуги по кастомизации?",
+    title: "Каковы требования к оборудованию для AnimateDiff Image?",
     content:
-      "Мы принимаем заказные разработки целевых страниц. Пожалуйста, свяжитесь с нами по электронной почте weijunext@gmail.com или в Twitter @weijunext.",
+      "Для работы AnimateDiff Image требуется не менее 12 ГБ видеопамяти (VRAM) для создания изображений с разрешением 512×512 и 16 кадров.",
   },
   {
-    title: "Есть ли какие-либо ограничения на использование этого шаблона?",
+    title: "Поддерживает ли AnimateDiff Image персонализированные анимации?",
     content:
-      "Нет. Вы можете свободно использовать и изменять этот шаблон. В то же время мы призываем разработчиков отправлять запросы на слияние, чтобы помочь улучшить этот шаблон целевой страницы вместе.",
+      "Да, комбинируя технологии, такие как DreamBooth или LoRA, AnimateDiff Image может создавать анимации для персонализированных тем, персонажей или объектов.",
   },
   {
-    title: "Включает ли этот шаблон функции оптимизации SEO?",
+    title: "Каково качество вывода AnimateDiff Image?",
     content:
-      "Да, наш шаблон включает базовые функции оптимизации SEO, чтобы помочь вашей веб-странице достичь лучших позиций в поисковых системах.",
+      "Анимации, создаваемые AnimateDiff Image, плавные и визуально привлекательные, что делает их подходящими для использования в фильмах и мультфильмах.",
   },
   {
-    title: "Что мне делать, если я столкнусь с проблемами при использовании шаблона?",
+    title: "Поддерживает ли AnimateDiff Image редактирование видео?",
     content:
-      "Если вы столкнетесь с какими-либо проблемами при использовании шаблона, пожалуйста, свяжитесь с нами через Twitter @weijunext.",
+      "Да, реализация video2video в AnimateDiff Image использует ControlNet для редактирования существующих видео на основе текстовых подсказок.",
   },
+  {
+    title: "Как работает модуль движения в AnimateDiff Image?",
+    content:
+      "Модуль движения изучает общие паттерны движения из реальных видео, создает промежуточные кадры и применяет динамику движения для преобразования статических изображений в анимации.",
+  },
+  {
+    title: "Является ли AnimateDiff Image с открытым исходным кодом?",
+    content:
+      "Да, AnimateDiff Image является проектом с открытым исходным кодом, и пользователи могут свободно использовать и изменять его.",
+  },
+  {
+    title: "Есть ли какие-либо ограничения на использование AnimateDiff Image?",
+    content:
+      "Нет. Пользователи могут свободно использовать и изменять AnimateDiff Image, и разработчики поощряются к подаче PR для помощи в его улучшении.",
+  },
+  {
+    title: "Включает ли AnimateDiff Image функции SEO-оптимизации?",
+    content:
+      "Да, AnimateDiff Image включает базовые функции SEO-оптимизации, чтобы помочь веб-страницам занимать более высокие позиции в поисковых системах.",
+  },
+  {
+    title: "Что делать, если я столкнусь с проблемами при использовании AnimateDiff Image?",
+    content:
+      "Если вы столкнетесь с какими-либо проблемами при использовании AnimateDiff Image, пожалуйста, свяжитесь с командой разработчиков через соответствующие сообщества или каналы поддержки.",
+  }
 ];
 
 interface FAQSCollection {
