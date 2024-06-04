@@ -4,43 +4,37 @@ import { BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
-
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
+    title: "Lightning Speed",
+    content: "The AnimateDiff LightningFast model can generate videos more than ten times faster than the original AnimateDiff.",
     icon: BsGithub,
   },
   {
-    title: "Responsive Design",
-    content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "Easy Customization",
-    content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
-  },
-  {
-    title: "SEO Optimized",
-    content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
+    title: "High-Quality Output",
+    content: "Utilizes AnimateDiff Image technology to produce smooth and visually appealing animations, suitable for various styles including realistic and anime.",
     icon: MagnetIcon,
   },
   {
-    title: "One-Click Deployment",
-    content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+    title: "Low Sampling Steps",
+    content: "Operates at low sampling steps to ensure stable and flicker-free animations.",
+    icon: FaToolbox,
   },
   {
-    title: "Globalization Support",
-    content:
-      "Supports multiple languages, making your website attractive to a global audience.",
+    title: "Flexible Input Options",
+    content: "Supports generating animations from static images and text prompts, offering diverse creative possibilities.",
     icon: FaEarthAsia,
   },
+  {
+    title: "Automated Workflow",
+    content: "Simplifies the animation creation process by automatically generating image sequences.",
+    icon: FaEarthAsia,
+  },
+  {
+    title: "Video-to-Video Generation",
+    content: "Supports video-to-video generation, enhancing workflow performance.",
+    icon: MagnetIcon,
+  }
 ];
 export const FEATURES_ZH = [
   {
@@ -75,136 +69,132 @@ export const FEATURES_ZH = [
   },
   ];
 
-export const FEATURES_JA = [
-  {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
-  },
-  {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
-  },
-  {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
-  },
-  {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
-  },
-  {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
-  },
-];
-
+  export const FEATURES_JA = [
+    {
+      title: "稲妻のような速度",
+      content: "AnimateDiff LightningFastモデルは、元のAnimateDiffよりも10倍以上速くビデオを生成できます。",
+      icon: BsGithub,
+    },
+    {
+      title: "高品質な出力",
+      content: "AnimateDiff Image技術を利用して、リアルなスタイルやアニメスタイルを含むさまざまなスタイルに適した、滑らかで視覚的に魅力的なアニメーションを生成します。",
+      icon: MagnetIcon,
+    },
+    {
+      title: "低サンプリングステップ",
+      content: "低サンプリングステップで動作し、安定したフリッカーフリーのアニメーションを確保します。",
+      icon: FaToolbox,
+    },
+    {
+      title: "柔軟な入力オプション",
+      content: "静止画像やテキストプロンプトからアニメーションを生成することをサポートし、多様な創作の可能性を提供します。",
+      icon: FaEarthAsia,
+    },
+    {
+      title: "自動化されたワークフロー",
+      content: "画像シーケンスを自動生成することで、アニメーション制作プロセスを簡素化します。",
+      icon: FaEarthAsia,
+    },
+    {
+      title: "ビデオからビデオへの生成",
+      content: "ビデオからビデオへの生成をサポートし、ワークフローのパフォーマンスを向上させます。",
+      icon: MagnetIcon,
+    }
+  ];
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
+    title: "سرعة البرق",
+    content: "يمكن لنموذج AnimateDiff LightningFast إنشاء مقاطع الفيديو أسرع بعشر مرات من النموذج الأصلي AnimateDiff.",
     icon: BsGithub,
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
-  },
-  {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
+    title: "جودة عالية للإخراج",
+    content: "يستخدم تقنية AnimateDiff Image لإنتاج رسوم متحركة سلسة وجذابة بصريًا، مناسبة لأنماط مختلفة بما في ذلك الأنماط الواقعية والأنمي.",
     icon: MagnetIcon,
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    title: "خطوات أخذ العينات المنخفضة",
+    content: "يعمل عند خطوات أخذ عينات منخفضة لضمان رسوم متحركة مستقرة وخالية من الوميض.",
+    icon: FaToolbox,
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
+    title: "خيارات إدخال مرنة",
+    content: "يدعم إنشاء الرسوم المتحركة من الصور الثابتة والنصوص، مما يوفر إمكانيات إبداعية متنوعة.",
     icon: FaEarthAsia,
   },
-];
-
-export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
+    title: "سير العمل الآلي",
+    content: "يبسط عملية إنشاء الرسوم المتحركة عن طريق توليد تسلسلات الصور تلقائيًا.",
+    icon: FaEarthAsia,
+  },
+  {
+    title: "إنشاء الفيديو من الفيديو",
+    content: "يدعم إنشاء الفيديو من الفيديو، مما يعزز أداء سير العمل.",
+    icon: MagnetIcon,
+  }
+];export const FEATURES_ES = [
+  {
+    title: "Velocidad Relámpago",
+    content: "El modelo AnimateDiff LightningFast puede generar videos más de diez veces más rápido que el AnimateDiff original.",
     icon: BsGithub,
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
-  },
-  {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
+    title: "Salida de Alta Calidad",
+    content: "Utiliza la tecnología AnimateDiff Image para producir animaciones suaves y visualmente atractivas, adecuadas para varios estilos, incluidos el realista y el anime.",
     icon: MagnetIcon,
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    title: "Bajos Pasos de Muestreo",
+    content: "Opera con bajos pasos de muestreo para asegurar animaciones estables y sin parpadeos.",
+    icon: FaToolbox,
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
+    title: "Opciones de Entrada Flexibles",
+    content: "Admite la generación de animaciones a partir de imágenes estáticas y indicaciones de texto, ofreciendo diversas posibilidades creativas.",
     icon: FaEarthAsia,
   },
+  {
+    title: "Flujo de Trabajo Automatizado",
+    content: "Simplifica el proceso de creación de animaciones generando automáticamente secuencias de imágenes.",
+    icon: FaEarthAsia,
+  },
+  {
+    title: "Generación de Video a Video",
+    content: "Admite la generación de video a video, mejorando el rendimiento del flujo de trabajo.",
+    icon: MagnetIcon,
+  }
 ];
-
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
+    title: "Скорость Молнии",
+    content: "Модель AnimateDiff LightningFast может генерировать видео более чем в десять раз быстрее, чем оригинальная модель AnimateDiff.",
     icon: BsGithub,
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
-  },
-  {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
+    title: "Высокое Качество Выхода",
+    content: "Использует технологию AnimateDiff Image для создания плавных и визуально привлекательных анимаций, подходящих для различных стилей, включая реалистичные и аниме.",
     icon: MagnetIcon,
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    title: "Низкие Шаги Сэмплирования",
+    content: "Работает при низких шагах сэмплирования, обеспечивая стабильные и без мерцания анимации.",
+    icon: FaToolbox,
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
+    title: "Гибкие Варианты Ввода",
+    content: "Поддерживает создание анимаций из статических изображений и текстовых подсказок, предлагая разнообразные творческие возможности.",
     icon: FaEarthAsia,
   },
+  {
+    title: "Автоматизированный Рабочий Процесс",
+    content: "Упрощает процесс создания анимаций, автоматически генерируя последовательности изображений.",
+    icon: FaEarthAsia,
+  },
+  {
+    title: "Генерация Видео из Видео",
+    content: "Поддерживает генерацию видео из видео, улучшая производительность рабочего процесса.",
+    icon: MagnetIcon,
+  }
 ];
 
 interface FeaturesCollection {
