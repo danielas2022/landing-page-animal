@@ -42,39 +42,38 @@ export const FEATURES_EN = [
     icon: FaEarthAsia,
   },
 ];
-
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
+    title: "闪电般的速度",
+    content: "AnimateDiff LightningFast模型能够比原始AnimateDiff快十倍以上地生成视频。",
     icon: BsGithub,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
-  },
-  {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
+    title: "高质量输出",
+    content: "利用AnimateDiff Image技术，生成平滑且视觉效果出色的动画，适合各种风格，包括现实风格和动漫风格。",
     icon: MagnetIcon,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "低采样步数",
+    content: "模型在低采样步数下运行，确保动画稳定且无闪烁。",
+    icon: FaToolbox,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
+    title: "灵活的输入选项",
+    content: "支持从静态图像和文本提示生成动画，提供多样化的创作可能性。",
     icon: FaEarthAsia,
   },
-];
+  {
+    title: "自动化工作流程",
+    content: "通过自动生成图像序列，简化动画制作过程。",
+    icon: FaEarthAsia,
+  },
+  {
+    title: "视频到视频生成",
+    content: "支持视频到视频的生成，增强工作流程的性能。",
+    icon: MagnetIcon,
+  },
+  ];
 
 export const FEATURES_JA = [
   {
