@@ -7,7 +7,7 @@ export const WALL_OF_LOVE = [
       image: "/images/users/weijunext.jpeg",
     },
       "content": "ByteDance released AnimateDiff-Lightning ⚡️ The lightning model can generate videos in just a few steps, more than ten times faster than the original AnimateDiff."
-    }
+    },
     
   {
     user: {
@@ -16,7 +16,7 @@ export const WALL_OF_LOVE = [
       image: "/images/users/1.png",
     },
       "content": "ByteDance presents AnimateDiff-Lightning\n\nCross-Model Diffusion Distillation\n\nWe present AnimateDiff-Lightning for lightning-fast video generation. Our model uses progressive adversarial diffusion distillation to achieve new state-of-the-art in few-step video generation."
-    }
+    },
     
   {
     user: {
@@ -25,7 +25,7 @@ export const WALL_OF_LOVE = [
       image: "/images/users/2.png",
     },
       "content": "Excited to present AnimateDiff-Lightning for lightning-fast video generation. Our model is more than ten times faster than the original AnimateDiff, achieving new SOTA on few-step video generation."
-    }
+    },
     
   {
     user: {
@@ -34,7 +34,7 @@ export const WALL_OF_LOVE = [
       image: "/images/users/3.png",
     },
       "content": "Happy to announce our latest work on speeding up video generation! Model released on huggingface at https://huggingface.co/ByteDance/AnimateDiff-Lightning. Also some more teaser on what this animatediff-lightning can do in a simple video2video pipeline in just 4 steps:"
-    }
+    },
     
   {
     user: {
@@ -43,7 +43,7 @@ export const WALL_OF_LOVE = [
       image: "/images/users/4.png",
     },
       "content": "AnimateDiff in 4 steps changes everything! \n\nWhile Text-to-video skills are ok, the main potential are the motion modules, video-to-video and animations."
-    }
+    },
     
   {
     user: {
