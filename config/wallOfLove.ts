@@ -42,9 +42,9 @@ export const WALL_OF_LOVE = [
       username: "weijunext",
       image: "/images/users/4.png",
     },
-    content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
-  },
+      "content": "AnimateDiff in 4 steps changes everything! \n\nWhile Text-to-video skills are ok, the main potential are the motion modules, video-to-video and animations."
+    }
+    
   {
     user: {
       name: "User5",
