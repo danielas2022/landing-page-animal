@@ -33,7 +33,7 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-     { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+     { name: 'twitter', href: "https://twitter.com", icon: BsTwitterX },
     { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
   ],
   footerLinks: [
