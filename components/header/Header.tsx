@@ -11,16 +11,17 @@ import { ThemedButton } from "../ThemedButton";
 
 const links = [
   {
-    label: "Features",
-    href: "#Features",
-  },
-  {
-    label: "Pricing",
+    label: "Prompt",
     href: "#Pricing",
   },
   {
-    label: "Wall of Love",
+    label: "Examples",
     href: "#WallOfLove",
+  },
+  
+  {
+    label: "Features",
+    href: "#Features",
   },
   {
     label: "FAQ",
@@ -43,7 +44,7 @@ const Header = () => {
             <Image
               alt={siteConfig.name}
               src="/logo.svg"
-              className="w-18 h-8"
+              className="w-8 h-8"
               width={32}
               height={32}
             />

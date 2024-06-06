@@ -1,5 +1,6 @@
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
+import WallOfLove from '@/components/home/WallOfLove';
 import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
 import SocialProof from "@/components/home/SocialProof";
@@ -21,11 +22,12 @@ export default async function LangHome({
       {/* Hero Section */}
       <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
       <SocialProof locale={dict.SocialProof} />
+      
+      {/* Testimonials / Wall of Love */}
+      <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
      
-
       {/* USP (Unique Selling Proposition) */}
       <Feature id="Features" locale={dict.Feature} langName={langName} />
-
 
       {/* FAQ (Frequently Asked Questions) */}
       <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />

@@ -1,48 +1,9 @@
 {
   "Hero": {
     "title1": "AnimateDiff",
-    "title2": "Image",
-    "title3": "LightningFast",
- 
-      "steps": "You may change the steps from 4 to 8, if you didn't get satisfied results.",
-      "first_video_generation": "First Video Generating takes time then Videos generate faster.",
-      "best_results_tip": "To get best results Make Sure to Write prompts in style as Given in Examples.",
-      "share_results": "Must Share your Best Results with Community - Click HERE",
-      "examples": [
-        {
-          "focus": "NOIR non white diverse bauhaus time traveller male stripper amazing colorful googles and head piece transparent futuristic neon lots of movement glow in the dark"
-        },
-        {
-          "focus": "Eiffel Tower",
-          "animate": "Clouds moving"
-        },
-        {
-          "focus": "Trees In forest",
-          "animate": "Lion running"
-        },
-        {
-          "focus": "Astronaut in Space"
-        },
-        {
-          "focus": "Group of Birds in sky",
-          "animate": "Birds Moving",
-          "shot_from": "distance"
-        },
-        {
-          "focus": "Statue of liberty",
-          "shot_from": "Drone",
-          "animate": "Drone coming toward statue"
-        },
-        {
-          "focus": "Panda in Forest",
-          "animate": "Drinking Tea"
-        },
-        {
-          "focus": "Kids Playing",
-          "season": "Winter"
-        }
-      ]
-    
+    "title2": "Lightning",
+    "title3": "Fast",
+    "description": "You may change the steps from 4 to 8, if you didn't get satisfied results. First Video Generating takes time then Videos generate faster. To get best results Make Sure to Write prompts in style as Given in Examples/p>."
   },
   "SocialProof": {
     "maker": "text-to-video"
@@ -60,10 +21,10 @@
   },
   
   "WallOfLove": {
-    "title": "Wall of Love",
+    "title": "Examples",
     "description1": "If you use AnimateDiff-Lightning and recommend it on your Twitter,",
     "description2": "please let us know",
-    "description3": ". We will display your tweet and recommendation here."
+    "description3": ". Make Sure to Write prompts in style as Given in Example."
   },
   "FAQ": {
     "title": "FAQs",
