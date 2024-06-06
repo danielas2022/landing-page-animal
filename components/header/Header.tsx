@@ -43,7 +43,7 @@ const Header = () => {
             <Image
               alt={siteConfig.name}
               src="/logo.svg"
-              className="w-8 h-8"
+              className="w-18 h-8"
               width={32}
               height={32}
             />

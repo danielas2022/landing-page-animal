@@ -3,7 +3,7 @@ import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+const OPEN_SOURCE_URL = 'https://github.com/'
 
 const baseSiteConfig = {
   name: "Image",
@@ -17,11 +17,11 @@ const baseSiteConfig = {
     {
       name: "weijunext",
       url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      twitter: 'https://twitter.com/',
     }
   ],
   creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  openSourceURL: 'https://github.com/',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -34,18 +34,18 @@ const baseSiteConfig = {
   },
   headerLinks: [
      { name: 'twitter', href: "https://twitter.com", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/", icon: SiBuymeacoffee }
   ],
   footerLinks: [
     { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
+    { name: 'twitter', href: "https://twitter.com/", icon: BsTwitterX },
+    { name: 'github', href: "https://github.com/", icon: BsGithub },
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/", icon: SiBuymeacoffee },
  
   ],
   footerProducts: [
     { url: 'https://githubbio.com', name: 'Github Bio Generator' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
+    { url: 'https://github.com/', name: 'Indie Hacker Tools' },
   ]
 }
 
