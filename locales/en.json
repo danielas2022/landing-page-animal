@@ -3,7 +3,7 @@
     "title1": "AnimateDiff",
     "title2": "Image",
     "title3": "LightningFast",
-    "description": "Lightning-fast text-to-video generation."
+    "description": "You may change the steps from 4 to 8, if you didn't get satisfied results.   First Video Generating takes time then Videos generate faster.    To get best results Make Sure to Write prompts in style as Given in Examples/p>."
   },
   "SocialProof": {
     "maker": "text-to-video"

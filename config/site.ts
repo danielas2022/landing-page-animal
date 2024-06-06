@@ -6,7 +6,7 @@ import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 const OPEN_SOURCE_URL = 'https://github.com/'
 
 const baseSiteConfig = {
-  name: "Image",
+  name: "animatediff-lightning",
   description:
     "Lightning-fast text-to-video generation.",
   url: "https://landingpage.weijunext.com",
