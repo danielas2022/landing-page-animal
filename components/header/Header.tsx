@@ -14,6 +14,7 @@ const links = [
     label: "Prompt",
     href: "#Pricing",
   },
+  
   {
     label: "Examples",
     href: "#WallOfLove",
