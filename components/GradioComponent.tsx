@@ -22,3 +22,4 @@ const GradioComponent = () => {
 };
 
 export default GradioComponent;
+
